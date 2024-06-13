@@ -66,5 +66,5 @@ print()
 rata_rata_perminggu = report(dict_penjualan)
 urut = 0
 for key, value in dict_penjualan.items(): 
-  print('Rata-rata penjualan perminggu', value['nama'], 'adalah', rata_rata_perminggu[urut])
+  print('Rata-rata penjualan perbulan', value['nama'], 'adalah', rata_rata_perminggu[urut])
   urut += 1
